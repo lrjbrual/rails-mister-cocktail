@@ -1,0 +1,20 @@
+<div class="wrapper header-cover-image">
+    <h1 class="center">The Cocktail World</h1>
+    <div class="row">
+      <% @cocktails.each do |cocktail|%> <!- the column must be inside the loop ->
+      <div class="col m3">
+        <div class="card small darken-1">
+          <div class="card-image">
+            <%= image_tag('mint_julep.jpg') %>
+            <span class="card-title"><%= cocktail.name %></span>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+    </div>
+    <% end %>
+    <!-- <%= link_to "add a new cocktail", new_cocktail_path %> -->
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.header-cover-image {
+    background: no-repeat center center;
+    background: asset-data-url('background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    // transition: opacity 2s ease-in-out;
+    opacity: -5s;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    z-index: -1;
+  }
+.center{
+  padding-top: 2em;
+}
+h1.center {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+}
