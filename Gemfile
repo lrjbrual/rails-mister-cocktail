@@ -8,8 +8,16 @@ gem 'pg', '~> 0.15'
 gem 'materialize-sass'
 #fontawesome
 gem "font-awesome-rails"
+# Material icon
+gem 'material_icons'
 # figaro
 gem 'figaro'
+# Cloudinary
+gem 'cloudinary'
+# Carrierwave to upload images into cloudinary
+gem 'carrierwave'
+# Simple form
+gem 'simple_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

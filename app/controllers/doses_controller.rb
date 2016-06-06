@@ -1,5 +1,10 @@
 class DosesController < ApplicationController
   # before_action :get_cocktail
+
+  # def index
+  #   @dose = Dose.new
+  # end
+
   def new
     @cocktail = Cocktail.find(params[:cocktail_id])
     @dose = Dose.new()
